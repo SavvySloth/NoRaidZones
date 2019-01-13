@@ -1,17 +1,17 @@
-## **No Raid Zones** 
+## No Raid Zones
 allows you to define zones where players can't use C4 or Drills.
 
-### **How exactly does it work/do you use it?**
+### How exactly does it work/do you use it?
 Simply stand in the cell ( a place which is surrounded by the blue dots) you want to protect and type /nrz add Example. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
 
-### **Wich features are going to be added?**
+### Wich features are going to be added?
 I am not going to do plugin updates atm because when itemv2 comes out the plugin will be broken but when it comes it this is what's cumming up!
 1. No raiding during defined times / dates
 1. No raiding stake (No need to be written in the stake optional)
 1. Anti dynamite
 1. Invisible wall (Player's can't enter any raid-zone if they aren't written in the stake), Don't know if this is going to be possible but i hope so :)
 
-### **Commands**
+### Commands
 **/nrz add <zone>**
 *Adds a new zone.*
 
@@ -27,11 +27,11 @@ I am not going to do plugin updates atm because when itemv2 comes out the plugin
 **/nrz help**
 *Lists all available commands.*
 
-### **Permissions**
+### Permissions
 **noraidzones.use**
 */grant group admin noraidzones.use*
 
-### **Settings**
+### Settings
 **Add Extra Cell Layer**
 *Add surrounding cells without a stake to the zone for extra protection.*
 
@@ -44,7 +44,7 @@ I am not going to do plugin updates atm because when itemv2 comes out the plugin
 **Show Notification**
 *Shows a notification to players which enter the zone.*
 
-### **Config file**
+### Config file
 `{
   "Settings": {
     "Add Extra Cell Layer": true,
@@ -54,7 +54,7 @@ I am not going to do plugin updates atm because when itemv2 comes out the plugin
   }
 }`
 
-### **Language file**
+### Language file
 `{
   "Misc - No Permission": "You don't have the permission to use this command.",
   "Misc - Help": "Unknown command, type '{name}' to list all available commands.",
