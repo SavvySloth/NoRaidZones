@@ -5,43 +5,42 @@ allows you to define zones where players can't use C4 or Drills.
 Simply stand in the cell ( a place which is surrounded by the blue dots) you want to protect and type /nrz add Example. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
 
 ### Wich features are going to be added?
-I am not going to do plugin updates atm because when itemv2 comes out the plugin will be broken but when it comes it this is what's cumming up!
 1. No raiding during defined times / dates
 1. No raiding stake (No need to be written in the stake optional)
 1. Anti dynamite
 1. Invisible wall (Player's can't enter any raid-zone if they aren't written in the stake), Don't know if this is going to be possible but i hope so :)
 
 ## Commands
-**/nrz add <zone>**
+**/nrz add <zone>** 
 *Adds a new zone.*
 
-**/nrz remove <zone>**
+**/nrz remove <zone>** 
 *Removes the specific zone.*
 
-**/nrz update <zone>**
+**/nrz update <zone>** 
 *Updates the specific zone. This should be used if you add or remove stakes in a zone.*
 
-**/nrz list**
+**/nrz list** 
 *Shows all your zones.*
 
-**/nrz help**
+**/nrz help** 
 *Lists all available commands.*
 
 ## Permissions
-**noraidzones.use**
+**noraidzones.use** 
 */grant group admin noraidzones.use*
 
 ## Settings
-**Add Extra Cell Layer**
+**Add Extra Cell Layer** 
 *Add surrounding cells without a stake to the zone for extra protection.*
 
-**Auto Fill Stakes**
+**Auto Fill Stakes** 
 *Automatically fill all the stakes in the zone.*
 
-**Refund C4**
+**Refund C4** 
 *Give back the C4 to the player which got automatically destroyed.*
 
-**Show Notification**
+**Show Notification** 
 *Shows a notification to players which enter the zone.*
 
 ## Config file
