@@ -11,37 +11,27 @@ Simply stand in the cell ( a place which is surrounded by the blue dots) you wan
 1. Invisible wall (Player's can't enter any raid-zone if they aren't written in the stake), Don't know if this is going to be possible but i hope so :)
 
 ## Commands
-**/nrz add <zone>** 
-*Adds a new zone.*
+**/nrz add <zone>** *Adds a new zone.*
 
-**/nrz remove <zone>** 
-*Removes the specific zone.*
+**/nrz remove <zone>** *Removes the specific zone.*
 
-**/nrz update <zone>** 
-*Updates the specific zone. This should be used if you add or remove stakes in a zone.*
+**/nrz update <zone>** *Updates the specific zone. This should be used if you add or remove stakes in a zone.*
 
-**/nrz list** 
-*Shows all your zones.*
+**/nrz list** *Shows all your zones.*
 
-**/nrz help** 
-*Lists all available commands.*
+**/nrz help** *Lists all available commands.*
 
 ## Permissions
-**noraidzones.use** 
-*/grant group admin noraidzones.use*
+**noraidzones.use** */grant group admin noraidzones.use*
 
 ## Settings
-**Add Extra Cell Layer** 
-*Add surrounding cells without a stake to the zone for extra protection.*
+**Add Extra Cell Layer** *Add surrounding cells without a stake to the zone for extra protection.*
 
-**Auto Fill Stakes** 
-*Automatically fill all the stakes in the zone.*
+**Auto Fill Stakes** *Automatically fill all the stakes in the zone.*
 
-**Refund C4** 
-*Give back the C4 to the player which got automatically destroyed.*
+**Refund C4** *Give back the C4 to the player which got automatically destroyed.*
 
-**Show Notification** 
-*Shows a notification to players which enter the zone.*
+**Show Notification** *Shows a notification to players which enter the zone.*
 
 ## Config file
 `{
