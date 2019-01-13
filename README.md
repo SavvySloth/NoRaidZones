@@ -45,7 +45,7 @@ I am not going to do plugin updates atm because when itemv2 comes out the plugin
 *Shows a notification to players which enter the zone.*
 
 # Config file
-`{
+`json{
   "Settings": {
     "Add Extra Cell Layer": true,
     "Auto Fill Stakes": true,
@@ -55,7 +55,7 @@ I am not going to do plugin updates atm because when itemv2 comes out the plugin
 }`
 
 # Language file
-`{
+`json{
   "Misc - No Permission": "You don't have the permission to use this command.",
   "Misc - Help": "Unknown command, type '{name}' to list all available commands.",
   "Misc - Syntax": "Syntax: {syntax}",
