@@ -68,8 +68,8 @@ Simply stand in the cell (a square which is surrounded by the blue stripes) you 
 
 ## F.A.Q.
 
-**Does this plugin still work for legacy?**  
-No, all versions higher then 1.3.0 won't work for legacy anymore 
+**Does this plugin still works for legacy?**  
+No, all patches after version 1.3.0 won't work for legacy anymore. 
 
 ## Credits
 
