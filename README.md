@@ -2,7 +2,7 @@
 
 ## Usage
 
-Simply stand in the cell (a place which is surrounded by the blue dots) you want to protect and type `/nrz add Example`. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
+Simply stand in the cell (a square which is surrounded by the blue stripes) you want to protect and type `/nrz add Example`. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
 
 ## Permissions
 
@@ -10,9 +10,9 @@ Simply stand in the cell (a place which is surrounded by the blue dots) you want
 
 ## Chat Commands
 
-* `/nrz add <zone>` -- Adds a new zone
-* `/nrz remove <zone>` -- Removes the specific zone
-* `/nrz update <zone>` -- Updates the specific zone. This should be used if you add or remove stakes in a zone
+* `/nrz add <cell>` -- Adds a new zone
+* `/nrz remove <cell>` -- Removes the specific zone
+* `/nrz update <cell>` -- Updates the specific zone. This should be used if you add or remove stakes in a zone
 * `/nrz list -- `Shows all your zones
 * `/nrz help` -- Lists all available commands
 
@@ -63,10 +63,13 @@ Simply stand in the cell (a place which is surrounded by the blue dots) you want
 
 ## Planed Features
 
-* Anti-dynamite
 * No raiding during defined times/dates
-* No raiding stake (no need to be written in the stake optional)
 * Invisible wall (Players can't enter any raid zone if they aren't written in the stake), don't know if this is going to be possible but I hope so! :)
+
+## F.A.Q.
+
+**Does this plugin still work for legacy?**
+No, all versions higher then 1.3.0 won't work for legacy anymore 
 
 ## Credits
 
