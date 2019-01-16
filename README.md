@@ -67,3 +67,8 @@ Simply stand in the cell (a place which is surrounded by the blue dots) you want
 * No raiding during defined times/dates
 * No raiding stake (no need to be written in the stake optional)
 * Invisible wall (Players can't enter any raid zone if they aren't written in the stake), don't know if this is going to be possible but I hope so! :)
+
+## Credits
+
+- **Lizzaran**, the original author of this plugin
+- **Swat1801**, for helping maintain the plugin previously
