@@ -69,7 +69,7 @@ Simply stand in the cell (a square which is surrounded by the blue stripes) you 
 ## F.A.Q.
 
 **Does this plugin still works for legacy?**  
-No, all patches after version 1.3.0 won't work for legacy anymore. 
+No, all patches after version 1.3.0 won't work on legacy servers anymore. 
 
 ## Credits
 
