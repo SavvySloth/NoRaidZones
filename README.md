@@ -2,38 +2,32 @@
 
 ## Usage
 
-Simply stand in the cell (a square which is surrounded by the blue stripes) you want to protect and type `/nrz add Example`. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
+Simply stand in the cell (a square which is surrounded by the blue stripes) you want to protect and type `/nrz add`. No Raid Zones will automatically create a cluster of all connected cells which are owned by you and protect them all.
 
 ## Permissions
 
-* `noraidzones.use` -- Allows player to utilize plugin features
+* `noraidzones.admin` -- Allows player to utilize plugin features
 
 ## Chat Commands
 
-* `/nrz add <cell>` -- Adds a new zone
-* `/nrz remove <cell>` -- Removes the specific zone
-* `/nrz update <cell>` -- Updates the specific zone. This should be used if you add or remove stakes in a zone
-* `/nrz list -- `Shows all your zones
-* `/nrz help` -- Lists all available commands
+* `/nrz ` -- Lists all available commands
+* `/nrz add <cell>` -- Apply protection to an cell.
+* `/nrz remove <cell>` -- Disband protection on a cell.
+* `/nrz check ` -- Check if an cells is protected or not.
 
 ## Configuration
 
-**Add Extra Cell Layer** -- Add surrounding cells without a stake to the zone for extra protection.
+**BlockedGuids** -- Blocked guiids by default C4 and RaidingDrill
 
-**Auto Fill Stakes** -- Automatically fill all the stakes in the zone.
-
-**Refund C4** -- Give back the C4 to the player which got automatically destroyed.
-
-**Show Notification** -- Shows a notification to players which enter the zone.
+**FillStakes** -- Automatically fill stakes in protected cells.
 
 ```json
 {
-  "Settings": {
-    "Add Extra Cell Layer": true,
-    "Auto Fill Stakes": true,
-    "Refund C4": false,
-    "Show Notification": true
-  }
+  "BlockedGuids": [
+    "e0ed5b104ae770a4ebe12a30576e6385",
+    "972cbc350a69a14419b7c06a3baaa090"
+  ],
+  "FillStakes": true
 }
 ```
 
@@ -41,23 +35,15 @@ Simply stand in the cell (a square which is surrounded by the blue stripes) you 
 
 ```json
 {
-  "Misc - No Permission": "You don't have the permission to use this command.",
-  "Misc - Help": "Unknown command, type '{name}' to list all available commands.",
-  "Misc - Syntax": "Syntax: {syntax}",
-  "Misc - Commands": "Commands: \n{commands}",
-  "Zone - Not Found": "Couldn't find the cell.",
-  "Zone - Not Owned": "You don't own this cell.",
-  "Zone - Already": "This cell is already part of another zone.",
-  "Zone - Added": "You have created the zone '{name}'. Its {count} cells big.",
-  "Zone - Removed": "You have removed the zone '{name}'.",
-  "Zone - Unknown": "The zone '{name}' couldn't be found.",
-  "Zone - List": "Zones:\n{names}",
-  "Zone - Exists": "You already have a zone named '{name}'.",
-  "Zone - None": "You don't have any zones yet.",
-  "Zone - Updated": "You have updated the zone '{name}'. Its now {count} cells big.",
-  "Zone - Raid": "The player '{player}' tried to raid '{name}'.",
-  "Zone - Notification": "No Raid Zone",
-  "Zone - Auto Removed": "You don't own this cell for '{name}' anymore and therefore got removed."
+  "NRZUsage": "<color=orange>[NRZ]</color> > Usage: /NRZ add|remove|check.",
+  "NRZAdded": "<color=orange>[NRZ]</color> > No Raid Zone added on this cell.",
+  "HasNRZ": "<color=orange>[NRZ]</color> > This cell is a No Raid Zone.",
+  "NRZExists": "<color=orange>[NRZ]</color> > No Raid Zone already exists in this cell.",
+  "NRZRemoved": "<color=orange>[NRZ]</color> > No Raid Zone removed from this cell.",
+  "NoStake": "<color=orange>[NRZ]</color> > You are not authorized on a stake in this cell.",
+  "NoNRZ": "<color=orange>[NRZ]</color> > No No Raid Zone set in this cell.",
+  "NRZAlert": "<color=orange>NO RAID ZONE!</color>",
+  "NoPermission": "<color=orange>[NRZ]</color> > You do not have the permissions to use this command. (Perm: {perm})"
 }
 ```
 
@@ -75,3 +61,4 @@ No, all patches after version 1.3.0 won't work on legacy servers anymore.
 
 - **Lizzaran**, the original author of this plugin
 - **Swat1801**, for helping maintain the plugin previously
+- **Mr. Blue**, for the lightweight V2 rewrite (version 2.0.1)
